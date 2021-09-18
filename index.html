@@ -14,7 +14,7 @@
 	<div class="wrapper">
 		<nav>
 			<div class="title">
-				<a href="/" data-bind="click: function() { if (window.stop) { window.stop(); } else if (document.execCommand) { document.execCommand('Stop'); }; window.location.href = 'http://maple.watch'; }">maple.watch</a>
+				<a href="/" data-bind="click: function() { if (window.stop) { window.stop(); } else if (document.execCommand) { document.execCommand('Stop'); }; window.location.href = 'https://hikaricalyx.github.io/maple.watch/'; }">maple.watch</a>
 			</div>
 			<div class="select" style="display:none" data-bind="visible: true">
 				<span class="select-text">Select a MapleStory version:</span>
@@ -71,9 +71,7 @@
 						<p>From there you can select the server collection (or <em>world</em>, if you like) you wish to check the status of.</p>
 					</div>
 					<div class="tutorial">
-						<a href="tutorial/tutorial1.png" target="_blank">
 							<img src="tutorial/tutorial1.png" alt="Tutorial 1" />
-						</a>
 					</div>
 				</div>
 				
@@ -229,10 +227,10 @@
 				<!-- /ko -->
 				<!-- ko if: unknown == false -->
 				<!-- ko if: $parent.name != "Game Servers" || rel == $root.subSelection() || (rel == 'Login' || (rel != 'Login' && ($root.selected() == 'GMS' || $root.selected() == 'MSEA'))) -->
-				<!-- ko if: name == "Channel 1" || name == "Cash Shop" || name == "Artemis" || name == "Star Planet 1" || name == "Boss Arena 1" || name == "Merge World" || name == "Cross World" || name == "Monster Life" || name == "Evolution Lab" -->
+				<!-- ko if: name == "Channel 1" || name == "CPQ/DIPQ/EvoLab 1" || name == "Cash Shop" || name == "Cash Shop 1" || name == "Auction House" || name == "Artemis" || name == "Star Planet 1" || name == "Boss Arena 1" || name == "Merge World" || name == "Cross World" || name == "Monster Life" || name == "Evolution Lab" -->
 				<br>
 				<!-- /ko -->
-				<article data-bind="css: { ok: +time() > 0 && +time() < 1000, slow: +time() >= 1000, timeout: status() == 'timeout' }, attr: { 'data-rel': rel }">
+				<article data-bind="css: { ok: +time() > 0 && +time() < 300, slow: +time() >= 300, timeout: status() == 'timeout' }, attr: { 'data-rel': rel }">
 					<div>
 						<h3>
 							<!-- ko if: icon.charAt(0) != 'f' -->
@@ -250,8 +248,8 @@
 							<dd class="port" data-bind="text: port"></dd>
 						</dl>
 					</div>
-					<div class="status" data-bind="css: { ok: +time() > 0 && +time() < 1000, slow: +time() >= 1000, timeout: status() == 'timeout' }">
-						<div class="text" data-bind="text: status() == 'timeout' ? 'No Response' : time() > 0 ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) < 1000 ? 'Online!' : 'Online! Slow...' : 'Checking...'"></div>
+					<div class="status" data-bind="css: { ok: +time() > 0 && +time() < 300, slow: +time() >= 300, timeout: status() == 'timeout' }">
+						<div class="text" data-bind="text: status() == 'timeout' ? 'No Response' : time() > 0 ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) < 300 ? 'Online!' : 'Online! Slow...' : 'Checking...'"></div>
 						<div class="time" data-bind="css: { hidden: !$root.settings.showConnection() }, text: time() !== '' && status() != 'timeout' ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) + 'ms' : ''"></div>
 					</div>
 				</article>
@@ -264,12 +262,7 @@
 	<!-- /ko -->
 	<!-- /ko -->
 	<div class="wrapper">
-		<article id="footer-top">
-			<a href="http://mesomushie.com">
-				<img src="assets/zt3BPcH.jpg" width="500px" alt="mesomushie.com">
-			</a>
-		</article>
-		<footer id="footer">&copy; Copyright <a href="http://maple.watch">maple.watch</a> 2015<br>All Rights Reserved</footer>
+		<footer id="footer">&copy; Copyright maple.watch 2015<br>All Rights Reserved</footer>
 	</div>
 	<script type="text/javascript" src="moment.min.js"></script>
 	<script type="text/javascript" src="knockout.min.js"></script>
