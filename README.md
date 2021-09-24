@@ -1,6 +1,6 @@
 # maple.watch
-Server status and latency check for MapleStory
+该分支为专为 BWIKI 准备的服务器状态监视页面。与原版相比有以下改动：
 
-This is an update to the original maple.watch that went down. GMS and EMS will eventually be updated, and others too if server information is found.
-
-Additionally, CMS/CMST server status is added.
+1. 去除了设置选项
+2. 简体中文化
+3. 默认不显示 IP 地址和端口编号
