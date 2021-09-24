@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
 	<title>MapleStory Status Checker</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
 				<a href="./" data-bind="click: function() { if (window.stop) { window.stop(); } else if (document.execCommand) { document.execCommand('Stop'); }; window.location.href = './'; }">maple.watch</a>
 			</div>
 			<div class="select" style="display:none" data-bind="visible: true">
-				<span class="select-text">Select a MapleStory version:</span>
+				<span class="select-text">选择服务器版本:</span>
 				<ul data-bind="foreach: versions">
 					<li data-bind="css: { active: abbr == $root.selected() }">
 						<a href="#" role="button" data-bind="attr: { href: available ? '#' + abbr + '-' + $root.getDefaultSubSelectionForVersion(abbr) : '', title: available ? name : 'Coming Soon!' }, css: { disabled: !available }, click: function() { if (available) { if (window.stop) { window.stop(); } else if (document.execCommand) { document.execCommand('Stop'); }; window.location.hash = '#' + abbr + '-' + $root.getDefaultSubSelectionForVersion(abbr); window.location.reload(); } else { return false; } }">
@@ -32,28 +32,28 @@
 			<div style="display:none" class="settings" data-bind="visible: true, click: function() { settings.showControls(true) }, visible: !settings.showControls()">
 				<span role="button" tabindex="1">
 					<i class="fa fa-cog"></i>
-					Controls
+					选项
 				</span>
 			</div>
 			<!-- /ko -->
 		</nav>
 	</div>
 	<div class="wrapper" id="loading" data-bind="visible: false">
-		<p><i class="fa fa-cog fa-spin"></i> Loading, please wait...</p>
+		<p><i class="fa fa-cog fa-spin"></i> 加载中，请稍等...</p>
 	</div>
 	<!-- ko if: isMainPage() -->
 	<div class="wrapper" id="main-page" style="display:none" data-bind="visible: true">
 		<h1>
 			<img data-bind="attr: { src: 'icons/Mushroom.png' }" />
-			<span>Welcome to maple.watch!</span>
+			<span>冒险岛服务器状态查询</span>
 		</h1>
-		<p class="tagline">The website which lets you track your connection to the MapleStory servers without having to open the game to find out if they're online!</p>
+		<p class="tagline">你可以在该页面检查游戏服务器状态而无需打开游戏！</p>
 		<section>
 			<article>
 				<div class="fake-table">
 					<div>
-						<h2>How do I use maple.watch?</h2>
-						<p>Begin by selecting the version of the game you want to check from the very top of the page or from the below list:</p>
+						<h2>如何使用该网页？</h2>
+						<p>请从以下列表中选择你想要的服务器:</p>
 						<ul data-bind="foreach: versions" class="versions-list">
 							<li>
 								<a href="#" role="button" data-bind="attr: { href: available ? '#' + abbr + '-' + $root.getDefaultSubSelectionForVersion(abbr) : '', title: available ? name : 'Coming Soon!' }, css: { disabled: !available }, click: function() { if (available) { if (window.stop) { window.stop(); } else if (document.execCommand) { document.execCommand('Stop'); }; window.location.hash = '#' + abbr + '-' + $root.getDefaultSubSelectionForVersion(abbr); window.location.reload(); } else { return false; } }">
@@ -61,14 +61,13 @@
 									<span class="short-name" data-bind="text: short"></span>
 								</a>
 								<!-- ko if: !available -->
-								<span class="notice">&mdash; Coming soon</span>
+								<span class="notice">&mdash; 即将到来</span>
 								<!-- /ko -->
 								<!-- ko if: available && !complete -->
-								<span class="notice">&mdash; Partially complete</span>
+								<span class="notice">&mdash; 仍在制作中</span>
 								<!-- /ko -->
 							</li>
 						</ul>
-						<p>From there you can select the server collection (or <em>world</em>, if you like) you wish to check the status of.</p>
 					</div>
 					<div class="tutorial">
 							<img src="tutorial/tutorial1.png" alt="Tutorial 1" />
@@ -77,20 +76,18 @@
 				
 			</article>
 			<article>
-				<h2>How is this any different to any of the other status checker websites?</h2>
-				<p>Quite simply: maple.watch tracks <em>your</em> connection to the MapleStory servers, and tells you <em>your</em> ping response from each server.</p>
-				<h3>What's wrong with the other status checking websites?</h3>
-				<p>The other status checking websites are great and you should definitely continue using them, but they all suffer from a few pitfalls which maple.watch sets out to fix:</p>
+				<h2>该页面和其它检查游戏服务器状态的页面有什么不同？</h2>
+				<p>这个页面是检查你<em>你</em>是否能连上冒险岛服务器，且告诉你从<em>你的网络</em>连接到各个服务器的延迟。</p>
+				<h3>其它检查服务器状态的页面有什么问题吗？</h3>
 				<ol class="the-bad">
-					<li><i class="fa fa-times"></i> <strong>They're infrequently updated</strong> &mdash; Some of them only update once every few minutes, which can be enough time for a server to go down and come back up again.</li>
-					<li><i class="fa fa-times"></i> <strong>They're centralised</strong> &mdash; All of the requests made to each server come from <em>their</em> computers, not yours. They don't show your connectivity, they show their own.</li>
+					<li><i class="fa fa-times"></i> <strong>更新不及时</strong> &mdash; 其它的检查页面只会隔几分钟更新一次，这几分钟内服务器可能会崩溃恢复。</li>
+					<li><i class="fa fa-times"></i> <strong>数据集中化</strong> &mdash; 检查的结果是基于<em>网站拥有者</em>的电脑，而不是你的。这并不能代表你的连接状态。</li>
 				</ol>
-				<h3>So how does maple.watch get around these issues?</h3>
-				<p>maple.watch works completely differently to all the other status checking websites:</p>
+				<h3>该页面有什么区别吗？</h3>
 				<ol class="the-good">
-					<li><i class="fa fa-check"></i> <strong>It's not at all centralised</strong> &mdash; Requests are sent out from <em>your</em> computer, not ours. The responses you see represent whether <em>you</em> are able to connect.</li>
-					<li><i class="fa fa-check"></i> <strong>It's updated instantly</strong> &mdash; As soon as you load each page the requests will be sent to each server you want to see there and then. There's no waiting around.</li>
-					<li><i class="fa fa-check"></i> <strong>It's completely transparent</strong> &mdash; We show you the IP addresses and ports of each server. Heck, we're even <a href="https://github.com/450/mse">open source</a>!</li>
+					<li><i class="fa fa-check"></i> <strong>数据不集中</strong> &mdash; 检查结果是基于<em>你的</em>电脑，不是我们的。反映出来的结果代表了<em>你</em>能否顺利连接服务器。</li>
+					<li><i class="fa fa-check"></i> <strong>更新及时</strong> &mdash; 只要打开页面就能立即看到状态，无需等待更新。</li>
+					<li><i class="fa fa-check"></i> <strong>公开透明</strong> &mdash; 我们显示了每个服务器所使用的 IP 地址和端口。你还可以在<a href="https://github.com/HikariCalyx/maple.watch">这里找到这个页面的源代码</a>。</li>
 				</ol>
 			</article>
 		</section>
@@ -100,50 +97,44 @@
 	<div style="display:none" id="controls" class="wrapper" data-bind="visible: settings.showControls()">
 		<section>
 			<div class="info">
-				<h2>Controls</h2>
-				<p>Use these to adjust how the site works.</p>
-				<p>Values are stored as cookies, meaning they'll save for your next visit.</p>
+				<h2>设置</h2>
+				<p>你可以通过这些修改该网站的一些设定。</p>
+				<p>这些设置以 Cookies 的形式保存，以便下次访问时调用。</p>
 			</div>
 			<div class="content">
 				<article>
 					<label>
-						<span>Check Delay Offset <small>(ms)</small></span>
+						<span>检查间隔 <small>(毫秒)</small></span>
 						<span class="control">
 							<input type="number" data-bind="value: settings.delay" />
 						</span>
 					</label>
-					<footer>This number (in milliseconds) sets the delay between checking each server. The default value is 100, but you may want to increase this if you notice the ping response slowly increasing between each server.</footer>
+					<footer>该数值（单位是毫秒）决定了各个服务器之间响应时间的检查间隔。默认情况下该数值是 100，但如果你发现各个频道之间的延迟出现递增，你可以增大此数值。</footer>
 				</article>
 				<article>
 					<label>
-						<span>Check Timeout <small>(ms)</small></span>
+						<span>超时时间 <small>(毫秒)</small></span>
 						<span class="control">
 							<input type="number" data-bind="value: settings.timeout" />
 						</span>
 					</label>
-					<footer>This number (in milliseconds) determines how long we should wait before assuming a server is offline. The higher this is, the greater chance of false positives there will be. Ideally this should be set between 1500 and 10000.</footer>
+					<footer>该数值（单位是毫秒）决定了当响应时间到达多少时就认定服务器不在线。数值越大越可以避免错误的响应时间返回结果。理想状态下该数值应当设定为1500至10000。但说实话如果响应时间到1500了体验会很差吧……</footer>
 				</article>
 				<article class="multiple">
-					<label title="Display the IP addresses and Port numbers for each server.">
-						<span>Show IPs and Ports</span>
+					<label title="显示各个服务器频道的 IP 地址和端口">
+						<span>显示 IP 地址和端口</span>
 						<span class="control">
 							<input type="checkbox" data-bind="checked: settings.showIPPort" />
 						</span>
 					</label>
-					<label title="Display the millisecond connection time for each server alongside the status text.">
-						<span>Show Connection Time</span>
+					<label title="显示连接到服务器的响应时间。">
+						<span>显示响应时间</span>
 						<span class="control">
 							<input type="checkbox" data-bind="checked: settings.showConnection"  />
 						</span>
 					</label>
-					<label title="Allow clicking on each server to refresh it.">
-						<span>Enable Click to Refresh</span>
-						<span class="control">
-							<input type="checkbox" disabled data-bind="checked: settings.clickToRefresh"  />
-						</span>
-					</label>
 					<label>
-						<span>Fix Browser Ping Speed</span>
+						<span>固定浏览器响应速度</span>
 						<span class="control">
 							<input type="checkbox" data-bind="checked: settings.fixPing"  />
 						</span>
@@ -155,15 +146,15 @@
 			<span>
 				<button role="button" type="button"  data-bind="click: function() { modifySettings() }">
 					<i class="fa fa-check"></i>
-					Save and Reload
+					保存并重新加载
 				</button>
 				<button role="button" type="button" class="plain" data-bind="click: function() { defaultSettings() }">
 					<i class="fa fa-history"></i>
-					Use Default
+					恢复默认值
 				</button>
 				<button role="button" type="button" class="plain cancel" data-bind="click: function() { settings.showControls(false) }">
 					<i class="fa fa-times"></i>
-					Close Controls
+					不保存并关闭
 				</button>
 			</span>
 		</footer>
@@ -176,11 +167,11 @@
 			<span data-bind="html: name"></span>
 		</h1>
 		<h2>
-			<small>Selected server:</small>
+			<small>选定的服务器:</small>
 			<img data-bind="attr: { src: 'icons/' + ( $root.selectedIcon() ) + '.png' }" />
 			<span data-bind="html: $root.subSelection()"></span>
 		</h2>
-		<p>To select a different world, click on its name in the Game Servers sidebar!</p>
+		<p>如需查看其它服务器状态，请点击侧栏其它服务器的选项。</p>
 	</div>
 	<!-- ko if: applications.length == 0 -->
 	<div class="wrapper" style="display:none" data-bind="visible: true">
@@ -200,7 +191,7 @@
 			<div class="info">
 				<h2 data-bind="text: name"></h2>
 				<ul data-bind="foreach: icons">
-					<li role="button" data-bind="attr: { 'data-for': name }, css: { active: name == $root.subSelection(), clickable: $parent.name == 'Game Servers' && (name != 'Login' || (name == 'Login' && ($root.selected() == 'GMS' || $root.selected() == 'MSEA'))) }, click: function() { if ($parent.name == 'Game Servers' && (name != 'Login' || (name == 'Login' && ($root.selected() == 'GMS' || $root.selected() == 'MSEA')))) { $root.updateSelectedServers($parent, 0, name) } }">
+					<li role="button" data-bind="attr: { 'data-for': name }, css: { active: name == $root.subSelection(), clickable: $parent.name == 'Game Servers' && (name != 'Login') }, click: function() { if ($parent.name == 'Game Servers' && (name != 'Login')) { $root.updateSelectedServers($parent, 0, name) } }">
 						<span class="icon">
 							<!-- ko if: icon.charAt(0) != 'f' -->
 							<img data-bind="attr: { src: 'icons/' + icon }" />
@@ -209,7 +200,7 @@
 						<span>
 							<strong data-bind="text: name"></strong>
 							<!-- ko if: english -->
-							<small data-bind="text: english"></small>
+							<!-- <small data-bind="text: english"></small> -->
 							<!-- /ko -->
 						</span>
 					</li>
@@ -223,10 +214,10 @@
 			<!-- /ko -->
 			<div class="servers" data-bind="foreach: selectedServers()">
 				<!-- ko if: loading == true -->
-				<p class="loading"><i class="fa fa-cog fa-spin"></i> Loading, please wait...</p>
+				<p class="loading"><i class="fa fa-cog fa-spin"></i> 加载中，请稍等...</p>
 				<!-- /ko -->
 				<!-- ko if: unknown == false -->
-				<!-- ko if: $parent.name != "Game Servers" || rel == $root.subSelection() || (rel == 'Login' || (rel != 'Login' && ($root.selected() == 'GMS' || $root.selected() == 'MSEA'))) -->
+				<!-- ko if: $parent.name != "Game Servers" || rel == $root.subSelection() || (rel == 'Login') -->
 				<!-- ko if: name == "Channel 1" || name == "CPQ/DIPQ/EvoLab 1" || name == "Cash Shop" || name == "Cash Shop 1" || name == "Auction House" || name == "Artemis" || name == "Star Planet 1" || name == "Boss Arena 1" || name == "Merge World" || name == "Cross World" || name == "Monster Life" || name == "Evolution Lab" -->
 				<br>
 				<!-- /ko -->
@@ -249,8 +240,8 @@
 						</dl>
 					</div>
 					<div class="status" data-bind="css: { ok: +time() > 0 && +time() < 300, slow: +time() >= 300, timeout: status() == 'timeout' }">
-						<div class="text" data-bind="text: status() == 'timeout' ? 'No Response' : time() > 0 ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) < 300 ? 'Online!' : 'Online! Slow...' : 'Checking...'"></div>
-						<div class="time" data-bind="css: { hidden: !$root.settings.showConnection() }, text: time() !== '' && status() != 'timeout' ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) + 'ms' : ''"></div>
+						<div class="text" data-bind="text: status() == 'timeout' ? '无响应' : time() > 0 ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) < 300 ? '在线' : '延迟太高' : '检查中'"></div>
+						<div class="time" data-bind="css: { hidden: !$root.settings.showConnection() }, text: time() !== '' && status() != 'timeout' ? (time() > $root.settings.pingOffset() > 0 ? time() - $root.settings.pingOffset() : 0) + '毫秒' : ''"></div>
 					</div>
 				</article>
 				<!-- /ko -->
@@ -262,7 +253,7 @@
 	<!-- /ko -->
 	<!-- /ko -->
 	<div class="wrapper">
-		<footer id="footer">&copy; Copyright maple.watch 2015<br>All Rights Reserved</footer>
+		<footer id="footer">&copy; Copyright maple.watch 2021<br>All Rights Reserved</footer>
 	</div>
 	<script type="text/javascript" src="moment.min.js"></script>
 	<script type="text/javascript" src="knockout.min.js"></script>
