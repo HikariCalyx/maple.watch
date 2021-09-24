@@ -218,983 +218,983 @@ var servers = {
             isMapleStoryGameServer: true,
             rel: "Login"
         }],
-            '路西德': [
+            Lucid: [
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 1",
                     address: "159.75.223.83",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 2",
                     address: "159.75.223.84",
                     port: "8586",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 3 贵宾",
                     address: "159.75.223.85",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 4 贵宾",
                     address: "159.75.223.86",
                     port: "8586",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 5",
                     address: "159.75.223.87",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 6",
                     address: "159.75.223.88",
                     port: "8586",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 7",
                     address: "159.75.223.89",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 8",
                     address: "159.75.223.90",
                     port: "8586",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 9",
                     address: "159.75.223.91",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 10",
                     address: "159.75.223.92",
                     port: "8586",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 11",
                     address: "159.75.223.93",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 12",
                     address: "159.75.223.94",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 13",
                     address: "159.75.223.95",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 14",
                     address: "159.75.223.96",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 15",
                     address: "159.75.223.97",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 16",
                     address: "159.75.223.98",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 17",
                     address: "159.75.223.99",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 18",
                     address: "159.75.223.100",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 19",
                     address: "159.75.223.101",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "频道 20",
                     address: "159.75.223.102",
                     port: "8585",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "商城",
                     address: "159.75.223.37",
                     port: "8700",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 },
                 {
                     icon: "serviceStatus-Lucid.png",
-                    english: "Lucid",
+                    english: "路西德",
                     name: "拍卖场",
                     address: "159.75.223.23",
                     port: "8795",
                     interval: 1500,
                     values: [],
                     isMapleStoryGameServer: true,
-                    rel:  "路西德"
+                    rel: "Lucid"
                 }
             ],
-                '威尔': [
+                Will: [
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 1",
                         address: "159.75.223.62",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 2",
                         address: "159.75.223.63",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 3 贵宾",
                         address: "159.75.223.64",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 4 贵宾",
                         address: "159.75.223.65",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 5",
                         address: "159.75.223.66",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 6",
                         address: "159.75.223.67",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 7",
                         address: "159.75.223.68",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 8",
                         address: "159.75.223.69",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 9",
                         address: "159.75.223.70",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 10",
                         address: "159.75.223.71",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 11",
                         address: "159.75.223.72",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 12",
                         address: "159.75.223.73",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 13",
                         address: "159.75.223.74",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 14",
                         address: "159.75.223.75",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 15",
                         address: "159.75.223.76",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 16",
                         address: "159.75.223.77",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 17",
                         address: "159.75.223.78",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 18",
                         address: "159.75.223.79",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 19",
                         address: "159.75.223.80",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "频道 20",
                         address: "159.75.223.81",
                         port: "8585",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "商城",
                         address: "159.75.223.38",
                         port: "8701",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        english: "Will",
+                        english: "威尔",
                         name: "拍卖场",
                         address: "159.75.223.23",
                         port: "8796",
                         interval: 1500,
                         values: [],
                         isMapleStoryGameServer: true,
-                        rel: "威尔"
+                        rel: "Will"
                     }
                 ],
-                    '奥尔卡': [
+                    Orchid: [
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 1",
                             address: "159.75.223.41",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 2",
                             address: "159.75.223.42",
                             port: "8586",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 3 贵宾",
                             address: "159.75.223.43",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 4 贵宾",
                             address: "159.75.223.44",
                             port: "8586",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 5",
                             address: "159.75.223.45",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 6",
                             address: "159.75.223.46",
                             port: "8586",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 7",
                             address: "159.75.223.47",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 8",
                             address: "159.75.223.48",
                             port: "8586",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 9",
                             address: "159.75.223.49",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 10",
                             address: "159.75.223.50",
                             port: "8586",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 11",
                             address: "159.75.223.51",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 12",
                             address: "159.75.223.52",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 13",
                             address: "159.75.223.53",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 14",
                             address: "159.75.223.54",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 15",
                             address: "159.75.223.55",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 16",
                             address: "159.75.223.56",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 17",
                             address: "159.75.223.57",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 18",
                             address: "159.75.223.58",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 19",
                             address: "159.75.223.59",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "频道 20",
                             address: "159.75.223.60",
                             port: "8585",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "商城",
                             address: "159.75.223.39",
                             port: "8702",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         },
                         {
                             icon: "serviceStatus-Orchid_CN.png",
-                            english: "Orchid",
+                            english: "奥尔卡",
                             name: "拍卖场",
                             address: "159.75.223.23",
                             port: "8797",
                             interval: 1500,
                             values: [],
                             isMapleStoryGameServer: true,
-                            rel: "奥尔卡"
+                            rel: "Orchid"
                         }
                     ],
-                        '戴米安': [
+                        Damien: [
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 1",
                                 address: "109.244.2.233",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 2",
                                 address: "109.244.2.234",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 3 贵宾",
                                 address: "109.244.2.235",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 4 贵宾",
                                 address: "109.244.2.236",
                                 port: "8586",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 5",
                                 address: "109.244.2.237",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 6",
                                 address: "109.244.2.238",
                                 port: "8586",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 7",
                                 address: "109.244.2.239",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 8",
                                 address: "109.244.2.240",
                                 port: "8586",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 9",
                                 address: "109.244.2.241",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 10",
                                 address: "109.244.2.242",
                                 port: "8586",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 11",
                                 address: "109.244.2.243",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 12",
                                 address: "109.244.2.244",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 13",
                                 address: "109.244.2.245",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 14",
                                 address: "109.244.2.246",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 15",
                                 address: "109.244.2.247",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 16",
                                 address: "109.244.2.248",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 17",
                                 address: "109.244.2.249",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 18",
                                 address: "109.244.2.250",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 19",
                                 address: "109.244.2.251",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "频道 20",
                                 address: "109.244.2.252",
                                 port: "8585",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "商城",
                                 address: "109.244.2.232",
                                 port: "8730",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             },
                             {
                                 icon: "serviceStatus-Damien.png",
-                                english: "Damien",
+                                english: "戴米安",
                                 name: "拍卖场",
                                 address: "109.244.2.159",
                                 port: "8795",
                                 interval: 1500,
                                 values: [],
                                 isMapleStoryGameServer: true,
-                                rel: "戴米安"
+                                rel: "Damien"
                             }
                         ],
-                            '希拉': [
+                            Hilla: [
                                 {
                                     icon: "serviceStatus-Hilla.png",
                                     name: "频道 1",
@@ -1203,7 +1203,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1213,7 +1213,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1223,7 +1223,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1233,7 +1233,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1243,7 +1243,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1253,7 +1253,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1263,7 +1263,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1273,7 +1273,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1283,7 +1283,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1293,7 +1293,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1303,7 +1303,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1313,7 +1313,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1323,7 +1323,7 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 },
                                 {
                                     icon: "serviceStatus-Hilla.png",
@@ -1333,297 +1333,297 @@ var servers = {
                                     interval: 1500,
                                     values: [],
                                     isMapleStoryGameServer: true,
-                                    rel: "希拉"
+                                    rel: "Hilla"
                                 }
                             ],
-                                '班·雷昂': [
+                                VonLeon: [
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 1",
                                         address: "109.244.2.198",
                                         port: "8585",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 2",
                                         address: "109.244.2.198",
                                         port: "8586",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 3",
                                         address: "109.244.2.199",
                                         port: "8585",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 4",
                                         address: "109.244.2.199",
                                         port: "8586",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 5",
                                         address: "109.244.2.200",
                                         port: "8585",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 6",
                                         address: "109.244.2.200",
                                         port: "8586",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 7",
                                         address: "109.244.2.201",
                                         port: "8585",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 8",
                                         address: "109.244.2.201",
                                         port: "8586",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 9",
                                         address: "109.244.2.202",
                                         port: "8585",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "频道 10",
                                         address: "109.244.2.202",
                                         port: "8586",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "商城",
                                         address: "109.244.2.209",
                                         port: "8790",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     },
                                     {
                                         icon: "serviceStatus-VonLeon.png",
-                                        english: "VonLeon",
+                                        english: "班·雷昂",
                                         name: "拍卖场",
                                         address: "109.244.2.207",
                                         port: "8795",
                                         interval: 1500,
                                         values: [],
                                         isMapleStoryGameServer: true,
-                                        rel: "班·雷昂"
+                                        rel: "VonLeon"
                                     }
                                 ],
-                                    '麦格纳斯': [
+                                    Magnus: [
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 1",
                                             address: "159.75.223.22",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 2",
                                             address: "159.75.223.115",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 3 贵宾",
                                             address: "159.75.223.116",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 4 贵宾",
                                             address: "159.75.223.117",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 5",
                                             address: "159.75.223.118",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 6",
                                             address: "159.75.223.119",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 7",
                                             address: "159.75.223.120",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 8",
                                             address: "159.75.223.121",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 9",
                                             address: "159.75.223.122",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 10",
                                             address: "159.75.223.123",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 11",
                                             address: "159.75.223.124",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "频道 12",
                                             address: "159.75.223.125",
                                             port: "8585",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "商城",
                                             address: "159.75.223.113",
                                             port: "7120",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         },
                                         {
                                             icon: "serviceStatus-Magnus.png",
-                                            english: "Magnus",
+                                            english: "麦格纳斯",
                                             name: "拍卖场",
                                             address: "159.75.223.103",
                                             port: "8795",
                                             interval: 1500,
                                             values: [],
                                             isMapleStoryGameServer: true,
-                                            rel: "麦格纳斯"
+                                            rel: "Magnus"
                                         }
                                     ],
     }
@@ -1652,60 +1652,60 @@ var checker = {
                 GameServer("国服", 8, [{
                         icon: "serviceStatus-Mushroom_16.png",
                         name: "Login",
-                        english: false,
+                        english: "登录服务器",
                         sub: ""
                     },
                     {
                         icon: "serviceStatus-Lucid.png",
-                        name: "路西德",
-                        english: "Lucid",
+                        name: "Lucid",
+                        english: "路西德",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-Will.png",
-                        name: "威尔",
-                        english: "Will",
+                        name: "Will",
+                        english: "威尔",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-Orchid_CN.png",
-                        name: "奥尔卡",
-                        english: "Orchid",
+                        name: "Orchid",
+                        english: "奥尔卡",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-Damien.png",
-                        name: "戴米安",
-                        english: "Damien",
+                        name: "Damien",
+                        english: "戴米安",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-Hilla.png",
-                        name: "希拉",
-                        english: "Hilla",
+                        name: "Hilla",
+                        english: "希拉",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-VonLeon.png",
-                        name: "班·雷昂",
-                        english: "VonLeon",
+                        name: "VonLeon",
+                        english: "班·雷昂",
                         sub: "World"
                     },
                     {
                         icon: "serviceStatus-Magnus.png",
-                        name: "麦格纳斯",
-                        english: "Magnus",
+                        name: "Magnus",
+                        english: "麦格纳斯",
                         sub: "World"
                     }
                 ], [
                     servers.CMS.Login,
-                    servers.CMS['路西德'],
-                    servers.CMS['威尔'],
-                    servers.CMS['奥尔卡'],
-                    servers.CMS['戴米安'],
-                    servers.CMS['希拉'],
-                    servers.CMS['班·雷昂'],
-                    servers.CMS['麦格纳斯']
+                    servers.CMS.Lucid,
+                    servers.CMS.Will,
+                    servers.CMS.Orchid,
+                    servers.CMS.Damien,
+                    servers.CMS.Hilla,
+                    servers.CMS.VonLeon,
+                    servers.CMS.Magnus
                 ])
             ]
         }
@@ -1718,7 +1718,7 @@ var checker = {
         clickToRefresh: ko.observable(readCookie("ClickToRefresh") == "false" ? false : false),
         fixPing: ko.observable(readCookie("FixPing") == "false" ? false : true),
         showConnection: ko.observable(readCookie("ShowConnection") == "false" ? false : true),
-        showIPPort: ko.observable(readCookie("ShowIPPort") == "false" ? false : true),
+        showIPPort: ko.observable(readCookie("ShowIPPort") == "false" ? false : false),
         timeout: ko.observable(readCookie("Timeout") ? readCookie("Timeout") : 5000),
         showControls: ko.observable(false)
     },
@@ -1739,21 +1739,21 @@ function GetEnglishIconNameForServer(serverName) {
     switch (serverName) {
         case "Login":
             return "Mushroom";
-        case "路西德":
+        case "Lucid":
             return "serviceStatus-Lucid";
-        case "威尔":
+        case "Will":
             return "serviceStatus-Will";
-        case "奥尔卡":
+        case "Orchid":
             return "serviceStatus-Orchid_CN";
-        case "戴米安":
+        case "Damien":
             return "serviceStatus-Damien";
-        case "希拉":
+        case "Hilla":
             return "serviceStatus-Hilla";
-        case "班·雷昂":
+        case "VonLeon":
             return "serviceStatus-VonLeon";
-        case "麦格纳斯":
+        case "Magnus":
             return "serviceStatus-Magnus";
-        case "测试区":
+        case "TestWorld":
             return "serviceStatus-TestWorld";
         default:
             return serverName;

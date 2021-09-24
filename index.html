@@ -29,12 +29,7 @@
 				</ul>
 			</div>
 			<!-- ko if: !isMainPage() -->
-			<div style="display:none" class="settings" data-bind="visible: true, click: function() { settings.showControls(true) }, visible: !settings.showControls()">
-				<span role="button" tabindex="1">
-					<i class="fa fa-cog"></i>
-					选项
-				</span>
-			</div>
+
 			<!-- /ko -->
 		</nav>
 	</div>
@@ -87,78 +82,13 @@
 				<ol class="the-good">
 					<li><i class="fa fa-check"></i> <strong>数据不集中</strong> &mdash; 检查结果是基于<em>你的</em>电脑，不是我们的。反映出来的结果代表了<em>你</em>能否顺利连接服务器。</li>
 					<li><i class="fa fa-check"></i> <strong>更新及时</strong> &mdash; 只要打开页面就能立即看到状态，无需等待更新。</li>
-					<li><i class="fa fa-check"></i> <strong>公开透明</strong> &mdash; 我们显示了每个服务器所使用的 IP 地址和端口。你还可以在<a href="https://github.com/HikariCalyx/maple.watch">这里找到这个页面的源代码</a>。</li>
-				</ol>
+					</ol>
 			</article>
 		</section>
 	</div>
 	<!-- /ko -->
 	<!-- ko if: !isMainPage() -->
-	<div style="display:none" id="controls" class="wrapper" data-bind="visible: settings.showControls()">
-		<section>
-			<div class="info">
-				<h2>设置</h2>
-				<p>你可以通过这些修改该网站的一些设定。</p>
-				<p>这些设置以 Cookies 的形式保存，以便下次访问时调用。</p>
-			</div>
-			<div class="content">
-				<article>
-					<label>
-						<span>检查间隔 <small>(毫秒)</small></span>
-						<span class="control">
-							<input type="number" data-bind="value: settings.delay" />
-						</span>
-					</label>
-					<footer>该数值（单位是毫秒）决定了各个服务器之间响应时间的检查间隔。默认情况下该数值是 100，但如果你发现各个频道之间的延迟出现递增，你可以增大此数值。</footer>
-				</article>
-				<article>
-					<label>
-						<span>超时时间 <small>(毫秒)</small></span>
-						<span class="control">
-							<input type="number" data-bind="value: settings.timeout" />
-						</span>
-					</label>
-					<footer>该数值（单位是毫秒）决定了当响应时间到达多少时就认定服务器不在线。数值越大越可以避免错误的响应时间返回结果。理想状态下该数值应当设定为1500至10000。但说实话如果响应时间到1500了体验会很差吧……</footer>
-				</article>
-				<article class="multiple">
-					<label title="显示各个服务器频道的 IP 地址和端口">
-						<span>显示 IP 地址和端口</span>
-						<span class="control">
-							<input type="checkbox" data-bind="checked: settings.showIPPort" />
-						</span>
-					</label>
-					<label title="显示连接到服务器的响应时间。">
-						<span>显示响应时间</span>
-						<span class="control">
-							<input type="checkbox" data-bind="checked: settings.showConnection"  />
-						</span>
-					</label>
-					<label>
-						<span>固定浏览器响应速度</span>
-						<span class="control">
-							<input type="checkbox" data-bind="checked: settings.fixPing"  />
-						</span>
-					</label>
-				</article>
-			</div>
-		</section>
-		<footer>
-			<span>
-				<button role="button" type="button"  data-bind="click: function() { modifySettings() }">
-					<i class="fa fa-check"></i>
-					保存并重新加载
-				</button>
-				<button role="button" type="button" class="plain" data-bind="click: function() { defaultSettings() }">
-					<i class="fa fa-history"></i>
-					恢复默认值
-				</button>
-				<button role="button" type="button" class="plain cancel" data-bind="click: function() { settings.showControls(false) }">
-					<i class="fa fa-times"></i>
-					不保存并关闭
-				</button>
-			</span>
-		</footer>
-	</div>
+
 	<!-- ko foreach: versions -->
 	<!-- ko if: abbr == $root.selected() -->
 	<div class="wrapper" style="display:none" data-bind="visible: true">
@@ -198,9 +128,9 @@
 							<!-- /ko -->
 						</span>
 						<span>
-							<strong data-bind="text: name"></strong>
+							<strong data-bind="text: english"></strong>
 							<!-- ko if: english -->
-							<!-- <small data-bind="text: english"></small> -->
+							<!-- <small data-bind="text: name"></small> -->
 							<!-- /ko -->
 						</span>
 					</li>
