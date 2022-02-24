@@ -9286,7 +9286,7 @@ var checker = {
             abbr: "MSEA",
             name: "MapleStory SEA <small>(SG / MY)</small>",
             available: true,
-            complete: false,
+            complete: true,
             icon: "Aquila.png",
             short: "Maple SEA SG / MY",
             serverCount: [
